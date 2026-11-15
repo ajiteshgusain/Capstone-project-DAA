@@ -1,0 +1,21 @@
+test_dijkstra_small (test_all.TestGraph.test_dijkstra_small) ... ok
+test_dijkstra_vs_floyd_warshall (test_all.TestGraph.test_dijkstra_vs_floyd_warshall) ... ok
+test_disconnected_graph_detected (test_all.TestGraph.test_disconnected_graph_detected) ... ok
+test_negative_weight_rejected (test_all.TestGraph.test_negative_weight_rejected) ... ok
+test_tsp_properties (test_all.TestGraph.test_tsp_properties) ... ok
+test_matches_bruteforce (test_all.TestKnapsack.test_matches_bruteforce) ... ok
+test_textbook_example (test_all.TestKnapsack.test_textbook_example) ... ok
+test_zero_capacity_and_oversize (test_all.TestKnapsack.test_zero_capacity_and_oversize) ... ok
+test_all_trips_cover_every_parcel_once (test_all.TestPipeline.test_all_trips_cover_every_parcel_once) ... ok
+test_oversize_parcel_reported (test_all.TestPipeline.test_oversize_parcel_reported) ... ok
+test_route_length_equals_sum_of_edges (test_all.TestPipeline.test_route_length_equals_sum_of_edges) ... ok
+test_small_sample_known_answer (test_all.TestPipeline.test_small_sample_known_answer) ... ok
+test_all_sorters_match_reference (test_all.TestSorting.test_all_sorters_match_reference) ... ok
+test_empty_and_single (test_all.TestSorting.test_empty_and_single) ... ok
+test_merge_sort_is_stable (test_all.TestSorting.test_merge_sort_is_stable) ... ok
+test_order_rule (test_all.TestSorting.test_order_rule) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.156s
+
+OK

@@ -1,0 +1,14 @@
+CORRECTNESS EVIDENCE (randomised tests)
+============================================================
+Sorting  merge     : 200/200 random lists identical to reference order
+Sorting  quick     : 200/200 random lists identical to reference order
+Sorting  heap      : 200/200 random lists identical to reference order
+Sorting  insertion : 200/200 random lists identical to reference order
+Sorting  timsort   : 200/200 random lists identical to reference order
+Knapsack DP == brute force == 1-D DP, weight <= capacity : 200/200 instances
+  (greedy by ratio was strictly worse than DP on 49/200 of them)
+Dijkstra == Floyd-Warshall for every source node         : 40/40 random graphs
+Nearest-neighbour tour is a valid closed tour            : 40/40
+NN length >= exact optimum (Held-Karp)                   : 40/40
+2-opt never makes the tour longer                        : 40/40
+NN / optimal length: average 1.047, worst 1.227

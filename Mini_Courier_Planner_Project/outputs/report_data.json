@@ -1,0 +1,859 @@
+{
+ "sorted": [
+  [
+   1,
+   "P01",
+   5,
+   5,
+   2.0,
+   1,
+   72
+  ],
+  [
+   2,
+   "P05",
+   3,
+   5,
+   2.0,
+   5,
+   72
+  ],
+  [
+   3,
+   "P03",
+   4,
+   4,
+   3.0,
+   3,
+   61
+  ],
+  [
+   4,
+   "P10",
+   6,
+   4,
+   3.0,
+   6,
+   61
+  ],
+  [
+   5,
+   "P08",
+   2,
+   4,
+   4.0,
+   1,
+   60
+  ],
+  [
+   6,
+   "P06",
+   6,
+   3,
+   5.0,
+   6,
+   49
+  ],
+  [
+   7,
+   "P02",
+   8,
+   3,
+   6.0,
+   2,
+   48
+  ],
+  [
+   8,
+   "P04",
+   7,
+   2,
+   8.0,
+   4,
+   36
+  ],
+  [
+   9,
+   "P09",
+   5,
+   2,
+   9.0,
+   3,
+   35
+  ],
+  [
+   10,
+   "P07",
+   9,
+   1,
+   10.0,
+   7,
+   24
+  ]
+ ],
+ "loaded": [
+  "P01",
+  "P05",
+  "P03",
+  "P10",
+  "P08",
+  "P09"
+ ],
+ "left": [
+  "P06",
+  "P02",
+  "P04",
+  "P07"
+ ],
+ "best_value": 361,
+ "weight": 25,
+ "tour": [
+  0,
+  1,
+  3,
+  5,
+  6,
+  0
+ ],
+ "route": [
+  0,
+  1,
+  3,
+  5,
+  6,
+  5,
+  3,
+  2,
+  0
+ ],
+ "km": 37.0,
+ "hours": 1.2583333333333333,
+ "dijkstra": [
+  [
+   1,
+   "Sector 14",
+   4.0,
+   "0 -> 1"
+  ],
+  [
+   3,
+   "Cyber Hub",
+   10.0,
+   "0 -> 2 -> 3"
+  ],
+  [
+   5,
+   "Golf Course Rd",
+   15.0,
+   "0 -> 2 -> 3 -> 5"
+  ],
+  [
+   6,
+   "MG Road",
+   18.0,
+   "0 -> 2 -> 3 -> 5 -> 6"
+  ]
+ ],
+ "deliveries": [
+  [
+   1,
+   "Sector 14",
+   0.1,
+   2.0,
+   "On time",
+   "P01, P08"
+  ],
+  [
+   3,
+   "Cyber Hub",
+   0.36,
+   3.0,
+   "On time",
+   "P03, P09"
+  ],
+  [
+   5,
+   "Golf Course Rd",
+   0.57,
+   2.0,
+   "On time",
+   "P05"
+  ],
+  [
+   6,
+   "MG Road",
+   0.72,
+   3.0,
+   "On time",
+   "P10"
+  ]
+ ],
+ "sorting": [
+  {
+   "algorithm": "merge",
+   "n": "100",
+   "input": "random",
+   "ms": "0.1242"
+  },
+  {
+   "algorithm": "quick",
+   "n": "100",
+   "input": "random",
+   "ms": "0.1161"
+  },
+  {
+   "algorithm": "heap",
+   "n": "100",
+   "input": "random",
+   "ms": "0.1187"
+  },
+  {
+   "algorithm": "insertion",
+   "n": "100",
+   "input": "random",
+   "ms": "0.1486"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "100",
+   "input": "random",
+   "ms": "0.0346"
+  },
+  {
+   "algorithm": "merge",
+   "n": "500",
+   "input": "random",
+   "ms": "0.6725"
+  },
+  {
+   "algorithm": "quick",
+   "n": "500",
+   "input": "random",
+   "ms": "0.6256"
+  },
+  {
+   "algorithm": "heap",
+   "n": "500",
+   "input": "random",
+   "ms": "0.7532"
+  },
+  {
+   "algorithm": "insertion",
+   "n": "500",
+   "input": "random",
+   "ms": "4.0939"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "500",
+   "input": "random",
+   "ms": "0.1409"
+  },
+  {
+   "algorithm": "merge",
+   "n": "1000",
+   "input": "random",
+   "ms": "1.0837"
+  },
+  {
+   "algorithm": "quick",
+   "n": "1000",
+   "input": "random",
+   "ms": "1.1070"
+  },
+  {
+   "algorithm": "heap",
+   "n": "1000",
+   "input": "random",
+   "ms": "1.3718"
+  },
+  {
+   "algorithm": "insertion",
+   "n": "1000",
+   "input": "random",
+   "ms": "14.0716"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "1000",
+   "input": "random",
+   "ms": "0.2539"
+  },
+  {
+   "algorithm": "merge",
+   "n": "2000",
+   "input": "random",
+   "ms": "2.3648"
+  },
+  {
+   "algorithm": "quick",
+   "n": "2000",
+   "input": "random",
+   "ms": "2.2402"
+  },
+  {
+   "algorithm": "heap",
+   "n": "2000",
+   "input": "random",
+   "ms": "3.7327"
+  },
+  {
+   "algorithm": "insertion",
+   "n": "2000",
+   "input": "random",
+   "ms": "59.0716"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "2000",
+   "input": "random",
+   "ms": "0.6557"
+  },
+  {
+   "algorithm": "merge",
+   "n": "5000",
+   "input": "random",
+   "ms": "8.5254"
+  },
+  {
+   "algorithm": "quick",
+   "n": "5000",
+   "input": "random",
+   "ms": "8.0344"
+  },
+  {
+   "algorithm": "heap",
+   "n": "5000",
+   "input": "random",
+   "ms": "11.1638"
+  },
+  {
+   "algorithm": "insertion",
+   "n": "5000",
+   "input": "random",
+   "ms": "436.3240"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "5000",
+   "input": "random",
+   "ms": "1.7266"
+  },
+  {
+   "algorithm": "merge",
+   "n": "10000",
+   "input": "random",
+   "ms": "17.5673"
+  },
+  {
+   "algorithm": "quick",
+   "n": "10000",
+   "input": "random",
+   "ms": "16.4121"
+  },
+  {
+   "algorithm": "heap",
+   "n": "10000",
+   "input": "random",
+   "ms": "24.0208"
+  },
+  {
+   "algorithm": "timsort",
+   "n": "10000",
+   "input": "random",
+   "ms": "5.6942"
+  }
+ ],
+ "patterns": [
+  {
+   "algorithm": "merge",
+   "input": "random",
+   "ms": "2.9486"
+  },
+  {
+   "algorithm": "quick",
+   "input": "random",
+   "ms": "2.9235"
+  },
+  {
+   "algorithm": "heap",
+   "input": "random",
+   "ms": "3.8124"
+  },
+  {
+   "algorithm": "insertion",
+   "input": "random",
+   "ms": "73.0087"
+  },
+  {
+   "algorithm": "timsort",
+   "input": "random",
+   "ms": "0.6867"
+  },
+  {
+   "algorithm": "merge",
+   "input": "already sorted",
+   "ms": "2.2505"
+  },
+  {
+   "algorithm": "quick",
+   "input": "already sorted",
+   "ms": "2.6400"
+  },
+  {
+   "algorithm": "heap",
+   "input": "already sorted",
+   "ms": "3.8718"
+  },
+  {
+   "algorithm": "insertion",
+   "input": "already sorted",
+   "ms": "0.5391"
+  },
+  {
+   "algorithm": "timsort",
+   "input": "already sorted",
+   "ms": "0.3544"
+  },
+  {
+   "algorithm": "merge",
+   "input": "reverse sorted",
+   "ms": "2.2247"
+  },
+  {
+   "algorithm": "quick",
+   "input": "reverse sorted",
+   "ms": "2.5949"
+  },
+  {
+   "algorithm": "heap",
+   "input": "reverse sorted",
+   "ms": "3.4909"
+  },
+  {
+   "algorithm": "insertion",
+   "input": "reverse sorted",
+   "ms": "109.5958"
+  },
+  {
+   "algorithm": "timsort",
+   "input": "reverse sorted",
+   "ms": "0.3409"
+  }
+ ],
+ "kn_bf": [
+  {
+   "n": "8",
+   "capacity": "20",
+   "dp_ms": "0.0317",
+   "bruteforce_ms": "0.1203"
+  },
+  {
+   "n": "10",
+   "capacity": "30",
+   "dp_ms": "0.0378",
+   "bruteforce_ms": "0.4360"
+  },
+  {
+   "n": "12",
+   "capacity": "37",
+   "dp_ms": "0.0443",
+   "bruteforce_ms": "1.6126"
+  },
+  {
+   "n": "14",
+   "capacity": "36",
+   "dp_ms": "0.0572",
+   "bruteforce_ms": "6.9065"
+  },
+  {
+   "n": "16",
+   "capacity": "41",
+   "dp_ms": "0.0674",
+   "bruteforce_ms": "28.3971"
+  },
+  {
+   "n": "18",
+   "capacity": "54",
+   "dp_ms": "0.0810",
+   "bruteforce_ms": "94.1084"
+  },
+  {
+   "n": "20",
+   "capacity": "44",
+   "dp_ms": "0.0858",
+   "bruteforce_ms": "501.4729"
+  }
+ ],
+ "kn_sc": [
+  {
+   "n": "100",
+   "capacity": "300",
+   "dp_2d_ms": "2.057",
+   "dp_1d_ms": "1.272"
+  },
+  {
+   "n": "200",
+   "capacity": "300",
+   "dp_2d_ms": "3.818",
+   "dp_1d_ms": "2.267"
+  },
+  {
+   "n": "400",
+   "capacity": "300",
+   "dp_2d_ms": "6.971",
+   "dp_1d_ms": "8.171"
+  },
+  {
+   "n": "800",
+   "capacity": "300",
+   "dp_2d_ms": "22.509",
+   "dp_1d_ms": "7.119"
+  },
+  {
+   "n": "1600",
+   "capacity": "300",
+   "dp_2d_ms": "23.590",
+   "dp_1d_ms": "17.208"
+  }
+ ],
+ "graph": [
+  {
+   "step": "dijkstra_single_source",
+   "size": "20",
+   "ms": "0.0328"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "50",
+   "ms": "0.0483"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "100",
+   "ms": "0.0795"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "200",
+   "ms": "0.1436"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "400",
+   "ms": "0.3045"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "800",
+   "ms": "1.0359"
+  },
+  {
+   "step": "dijkstra_single_source",
+   "size": "1600",
+   "ms": "1.1963"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "5",
+   "ms": "1.5876"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "5",
+   "ms": "0.0316"
+  },
+  {
+   "step": "two_opt",
+   "size": "5",
+   "ms": "0.0226"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "10",
+   "ms": "2.8699"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "10",
+   "ms": "0.0351"
+  },
+  {
+   "step": "two_opt",
+   "size": "10",
+   "ms": "0.0215"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "20",
+   "ms": "4.8408"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "20",
+   "ms": "0.0749"
+  },
+  {
+   "step": "two_opt",
+   "size": "20",
+   "ms": "0.1362"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "40",
+   "ms": "10.1220"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "40",
+   "ms": "0.1606"
+  },
+  {
+   "step": "two_opt",
+   "size": "40",
+   "ms": "0.5783"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "80",
+   "ms": "20.5357"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "80",
+   "ms": "0.4341"
+  },
+  {
+   "step": "two_opt",
+   "size": "80",
+   "ms": "2.0464"
+  },
+  {
+   "step": "dijkstra_from_all_stops",
+   "size": "160",
+   "ms": "42.6727"
+  },
+  {
+   "step": "nearest_neighbour",
+   "size": "160",
+   "ms": "1.8603"
+  },
+  {
+   "step": "two_opt",
+   "size": "160",
+   "ms": "9.3320"
+  }
+ ],
+ "tsp": [
+  {
+   "k_stops": "5",
+   "nn_avg_ratio": "1.0292",
+   "nn_max_ratio": "1.1223",
+   "2opt_avg_ratio": "1.0003",
+   "2opt_max_ratio": "1.0080"
+  },
+  {
+   "k_stops": "6",
+   "nn_avg_ratio": "1.0499",
+   "nn_max_ratio": "1.2120",
+   "2opt_avg_ratio": "1.0009",
+   "2opt_max_ratio": "1.0217"
+  },
+  {
+   "k_stops": "7",
+   "nn_avg_ratio": "1.0528",
+   "nn_max_ratio": "1.1966",
+   "2opt_avg_ratio": "1.0000",
+   "2opt_max_ratio": "1.0000"
+  },
+  {
+   "k_stops": "8",
+   "nn_avg_ratio": "1.0570",
+   "nn_max_ratio": "1.1766",
+   "2opt_avg_ratio": "1.0007",
+   "2opt_max_ratio": "1.0146"
+  },
+  {
+   "k_stops": "9",
+   "nn_avg_ratio": "1.0848",
+   "nn_max_ratio": "1.3268",
+   "2opt_avg_ratio": "1.0047",
+   "2opt_max_ratio": "1.0476"
+  },
+  {
+   "k_stops": "10",
+   "nn_avg_ratio": "1.0835",
+   "nn_max_ratio": "1.3493",
+   "2opt_avg_ratio": "1.0020",
+   "2opt_max_ratio": "1.0433"
+  },
+  {
+   "k_stops": "11",
+   "nn_avg_ratio": "1.0797",
+   "nn_max_ratio": "1.2033",
+   "2opt_avg_ratio": "1.0036",
+   "2opt_max_ratio": "1.0399"
+  }
+ ],
+ "pipe": [
+  {
+   "dataset": "small",
+   "nodes": "8",
+   "parcels": "10",
+   "capacity_kg": "25",
+   "parcels_loaded": "6",
+   "stops": "4",
+   "route_km": "37.0",
+   "sort_ms": "0.0080",
+   "knapsack_ms": "0.0154",
+   "dijkstra_ms": "0.0204",
+   "tsp_nn_ms": "0.0039",
+   "two_opt_ms": "0.0019",
+   "trip_total_ms": "0.0496",
+   "trips_for_all_parcels": "3",
+   "all_trips_ms": "0.13"
+  },
+  {
+   "dataset": "medium",
+   "nodes": "30",
+   "parcels": "100",
+   "capacity_kg": "100",
+   "parcels_loaded": "33",
+   "stops": "17",
+   "route_km": "666.8",
+   "sort_ms": "0.0985",
+   "knapsack_ms": "0.4538",
+   "dijkstra_ms": "0.2750",
+   "tsp_nn_ms": "0.0193",
+   "two_opt_ms": "0.0508",
+   "trip_total_ms": "0.8974",
+   "trips_for_all_parcels": "8",
+   "all_trips_ms": "3.33"
+  },
+  {
+   "dataset": "large",
+   "nodes": "120",
+   "parcels": "1000",
+   "capacity_kg": "300",
+   "parcels_loaded": "161",
+   "stops": "88",
+   "route_km": "1029.4",
+   "sort_ms": "1.3050",
+   "knapsack_ms": "15.0294",
+   "dijkstra_ms": "5.7142",
+   "tsp_nn_ms": "0.3714",
+   "two_opt_ms": "1.4464",
+   "trip_total_ms": "23.8664",
+   "trips_for_all_parcels": "27",
+   "all_trips_ms": "229.99"
+  }
+ ],
+ "correct": [
+  "CORRECTNESS EVIDENCE (randomised tests)",
+  "============================================================",
+  "Sorting  merge     : 200/200 random lists identical to reference order",
+  "Sorting  quick     : 200/200 random lists identical to reference order",
+  "Sorting  heap      : 200/200 random lists identical to reference order",
+  "Sorting  insertion : 200/200 random lists identical to reference order",
+  "Sorting  timsort   : 200/200 random lists identical to reference order",
+  "Knapsack DP == brute force == 1-D DP, weight <= capacity : 200/200 instances",
+  "  (greedy by ratio was strictly worse than DP on 49/200 of them)",
+  "Dijkstra == Floyd-Warshall for every source node         : 40/40 random graphs",
+  "Nearest-neighbour tour is a valid closed tour            : 40/40",
+  "NN length >= exact optimum (Held-Karp)                   : 40/40",
+  "2-opt never makes the tour longer                        : 40/40",
+  "NN / optimal length: average 1.047, worst 1.227"
+ ],
+ "img": {
+  "route_small": [
+   "/home/claude/mini_courier_planner/outputs/charts/route_small.png",
+   1280,
+   960
+  ],
+  "pipeline_share": [
+   "/home/claude/mini_courier_planner/outputs/charts/pipeline_share.png",
+   1280,
+   576
+  ],
+  "sorting_runtime": [
+   "/home/claude/mini_courier_planner/outputs/charts/sorting_runtime.png",
+   1200,
+   768
+  ],
+  "tsp_quality": [
+   "/home/claude/mini_courier_planner/outputs/charts/tsp_quality.png",
+   1200,
+   768
+  ],
+  "dijkstra_runtime": [
+   "/home/claude/mini_courier_planner/outputs/charts/dijkstra_runtime.png",
+   1200,
+   768
+  ],
+  "knapsack_scaling": [
+   "/home/claude/mini_courier_planner/outputs/charts/knapsack_scaling.png",
+   1200,
+   768
+  ],
+  "pipeline_steps": [
+   "/home/claude/mini_courier_planner/outputs/charts/pipeline_steps.png",
+   1280,
+   768
+  ],
+  "knapsack_dp_vs_bruteforce": [
+   "/home/claude/mini_courier_planner/outputs/charts/knapsack_dp_vs_bruteforce.png",
+   1200,
+   768
+  ],
+  "design_flow": [
+   "/home/claude/mini_courier_planner/outputs/charts/design_flow.png",
+   1700,
+   782
+  ],
+  "route_medium": [
+   "/home/claude/mini_courier_planner/outputs/charts/route_medium.png",
+   1280,
+   960
+  ],
+  "route_steps_runtime": [
+   "/home/claude/mini_courier_planner/outputs/charts/route_steps_runtime.png",
+   1200,
+   768
+  ],
+  "01_phase2_sorting": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/01_phase2_sorting.png",
+   1782,
+   609
+  ],
+  "04_medium_all_trips": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/04_medium_all_trips.png",
+   1782,
+   632
+  ],
+  "07_correctness_and_runtime": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/07_correctness_and_runtime.png",
+   2106,
+   632
+  ],
+  "03_phase3_dijkstra_route": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/03_phase3_dijkstra_route.png",
+   1782,
+   680
+  ],
+  "02_phase2_knapsack_dp_table": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/02_phase2_knapsack_dp_table.png",
+   1782,
+   822
+  ],
+  "05_large_all_trips": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/05_large_all_trips.png",
+   1782,
+   1083
+  ],
+  "06_unit_tests": [
+   "/home/claude/mini_courier_planner/outputs/screenshots/06_unit_tests.png",
+   1782,
+   656
+  ]
+ }
+}

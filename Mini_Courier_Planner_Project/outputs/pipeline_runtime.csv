@@ -1,0 +1,4 @@
+dataset,nodes,parcels,capacity_kg,parcels_loaded,stops,route_km,sort_ms,knapsack_ms,dijkstra_ms,tsp_nn_ms,two_opt_ms,trip_total_ms,trips_for_all_parcels,all_trips_ms
+small,8,10,25,6,4,37.0,0.0080,0.0154,0.0204,0.0039,0.0019,0.0496,3,0.13
+medium,30,100,100,33,17,666.8,0.0985,0.4538,0.2750,0.0193,0.0508,0.8974,8,3.33
+large,120,1000,300,161,88,1029.4,1.3050,15.0294,5.7142,0.3714,1.4464,23.8664,27,229.99

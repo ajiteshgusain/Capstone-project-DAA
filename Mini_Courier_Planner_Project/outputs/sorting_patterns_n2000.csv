@@ -1,0 +1,16 @@
+algorithm,input,ms
+merge,random,2.9486
+quick,random,2.9235
+heap,random,3.8124
+insertion,random,73.0087
+timsort,random,0.6867
+merge,already sorted,2.2505
+quick,already sorted,2.6400
+heap,already sorted,3.8718
+insertion,already sorted,0.5391
+timsort,already sorted,0.3544
+merge,reverse sorted,2.2247
+quick,reverse sorted,2.5949
+heap,reverse sorted,3.4909
+insertion,reverse sorted,109.5958
+timsort,reverse sorted,0.3409

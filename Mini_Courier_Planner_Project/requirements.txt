@@ -1,0 +1,2 @@
+matplotlib>=3.5      # charts and screenshots only; the algorithms use the standard library
+Pillow               # only used by the screenshot/report helper scripts
